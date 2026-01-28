@@ -1,0 +1,250 @@
+/* ===== VIDEO BACKGROUND ===== */
+
+.video-bg {
+    position: fixed;        /* stays in background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.video-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Dark overlay for readability */
+.video-bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(69, 68, 68, 0.449);
+}
+.a1{
+  text-decoration: none;
+}
+section{
+    display: flex;
+    gap: 40px;
+    margin-left: 525px;
+    margin-top: 125px;
+
+}
+
+
+/* button for python */
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 20px;
+  background: #81838562;
+  color: white;
+  border: rgb(151, 109, 109);
+  border-style: double;
+  border-radius: 10px;
+  cursor: pointer;
+  writing-mode:vertical-rl;
+  text-orientation: upright;
+  font-size: 35px;
+  font-weight: bold;
+  width: 100px;
+  height: 350px;
+}
+
+.btn img {
+  width: 70px;
+  height: 70px;
+}
+
+.btn:hover {
+  background: #5c7ca35b;
+  color: rgb(232, 220, 220);
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  box-shadow: 0 0 50px  #4f7099;
+}
+
+
+
+
+
+/* button for html */
+
+
+.btn2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 20px;
+  background: #81838562;
+  color: white;
+  border: rgb(151, 109, 109);
+  border-style: double;
+  border-radius: 10px;
+  cursor: pointer;
+  writing-mode:vertical-rl;
+  text-orientation: upright;
+  font-size: 40px;
+  font-weight: bold;
+  width: 100px;
+  height: 350px;
+  letter-spacing: 10px;
+}
+
+.btn2 img {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 130px;
+  height: 70px;
+}
+
+.btn2:hover {
+  background: #5c7ca35b;
+  color: rgb(232, 220, 220);
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  box-shadow: 0 0 50px  #4f7099;
+}
+
+
+
+
+/* button for css */
+
+.btn3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 20px;
+  background: #81838562;
+  color: white;
+  border: rgb(151, 109, 109);
+  border-style: double;
+  border-radius: 10px;
+  cursor: pointer;
+  writing-mode:vertical-rl;
+  text-orientation: upright;
+  font-size: 45px;
+  font-weight: bold;
+  width: 100px;
+  height: 350px;
+  letter-spacing: 15px;
+}
+
+.btn3 img {
+    margin-top: -10px;
+  width: 200px;
+  height: 100px;
+}
+
+.btn3:hover {
+  background: #5c7ca35b;
+  color: rgb(232, 220, 220);
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  box-shadow: 0 0 50px  #4f7099;
+}
+
+
+
+
+
+
+/* button for java script */
+
+.btn4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 20px;
+  background: #81838562;
+  color: white;
+  border: rgb(151, 109, 109);
+  border-style: double;
+  border-radius: 10px;
+  cursor: pointer;
+  writing-mode:vertical-lr;
+  text-orientation:upright;
+  font-size: 45px;
+  font-weight: bold;
+  width: 100px;
+  height: 350px;
+  letter-spacing: 20px;
+}
+
+.btn4 img {
+  width: 120px;
+  height: 90px;
+  margin-bottom: 25px;
+}
+
+.btn4:hover {
+  background: #5c7ca35b;
+  color: rgb(232, 220, 220);
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  box-shadow: 0 0 50px  #4f7099;
+}
+
+
+h1{
+  color: aliceblue;
+  justify-content: center;
+  display: flex;
+  font-size: 70px;
+
+}
+h1:hover{
+  transform: scale(1.1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s ;
+  box-shadow:0 0 50px  #095cc1;
+}
+
+/* pyhton program button  */
+
+.btnp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 20px;
+  background: #81838562;
+  color: white;
+  border: rgb(151, 109, 109);
+  border-style: double;
+  border-radius: 10px;
+  cursor: pointer;
+  writing-mode:vertical-lr;
+  text-orientation:upright;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+  height: 350px;
+  letter-spacing: 10px;
+}
+
+.btnp img {
+  width: 120px;
+  height: 90px;
+  margin-bottom: 0px;
+}
+
+.btnp:hover {
+  background: #5c7ca35b;
+  color: rgb(232, 220, 220);
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  box-shadow: 0 0 50px  #4f7099;
+}
